@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        table{
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            border: 2px double rgb(34, 75, 150);
+            margin: 20px 35%;
+            background-color: aquamarine;
+            border-collapse: collapse;
+            border-radius: 20px;
+
+
+        }
+        td:hover{
+            font-size: 15px;
+            background-color: aliceblue;
+            border-radius: 20px;
+        }
+        td{
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-weight: 400;
+           
+        }
+        tr:nth-child(even){
+            background-color: blueviolet;
+        }
+        td{
+            padding: 20px;
+            
+        }
+        .dest {
+            
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            /* justify-content: center; */
+            
+        }
+        .dest img{
+            
+            margin-left: 80px;
+            border-radius: 25px;
+        }
+        .dest img:hover{
+            transition: transform 2s;
+            transform: scale(1.7);
+           
+            /* width: 210px;
+            height: 310px; */
+        }
+
+        .details{
+            display: flex;
+            justify-content: center;
+            
+            
+            padding: 20px;
+        }
+        .details a{
+            margin-left: 160px;
+            text-decoration: none;
+            font-size: 20px;
+            border: 2px solid blue;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: bisque;
+        }
+        .details a:hover{
+            background-color: black;
+            color: bisque;
+            border: none;
+            text-shadow: 8px 8px 8px violet;
+        }
+
+    </style>
+   </head>
+
+<body>
+    <div class="header" style="background-color: black; padding-bottom: 15px;">
+        <img src="image/travel_logo.jpg" alt="" height="70px" style="border-radius: 30px; margin-left: 30px;">
+        <div class="nav-link">
+            <a style="text-decoration: none; color: rgb(234, 233, 236); font-size: large; " href="index.html">Home</a>
+        <a style="text-decoration: none; color: rgb(234, 233, 236); font-size: large; " href="Destinations.html"> Destinations </a>
+        <a style="text-decoration: none; color: rgb(234, 233, 236); font-size: large;" href="Travel.html"> Travel Blog</a>
+        <a style="text-decoration: none; color: rgb(234, 233, 236); font-size: large; " href="Travel_tips.html">Travel Tips</a>
+        <a style="text-decoration: none; color: rgb(234, 233, 236); font-size: large; " href="Contact.html">Contact Us</a>
+        </div>
+        
+        
+            <a  class="register" style="text-decoration: none; color: rgb(234, 233, 236); font-size: large; "  href="Registeration.html"> Register</a>
+       
+       
+    </div>
+    <div style="text-align: center;">
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 900; font-variant: small-caps; text-decoration: underline wavy tomato;"> Popular Destination </h1>
+
+    </div>
+    <div>
+    <table>
+        <tr>
+           <th>Destination</th>
+           <th>Country</th>
+           <th>Best Time</th>
+        </tr>
+        <tr>
+            <td>Paris</td>
+            <td>France</td>
+            <td>Summer</td>
+        </tr>
+        <tr><td>Bali</td>
+        <td>Indonesia</td>
+        <td>Spring</td>
+
+        </tr>
+        <tr>
+            <td>Kyota </td>
+            <td>Japan</td>
+            <td>Autumn</td>
+
+        </tr>
+        <tr>
+            <td>Cape town</td>
+            <td>South Africa</td>
+            <td>Spring</td>
+        </tr>
+        <tr>
+            <td>New york City</td>
+            <td>USA</td>
+            <td>Autumn</td>
+        </tr>
+    </table>
+    </div>
+    <div class="dest">
+        <div class="d-img">
+            <img src="image/pexels-celine-3776818-11387246.jpg" alt="" height="300px " width="200px" >
+        <img src="image/pexels-lara-hart-2149371048-38868370.jpg" alt="" height="300px " width="200px" >
+        <img src="image/pexels-agustin-villalba-589020055-17258243.jpg" alt="" height="300px " width="200px" >
+        <img src="image/pexels-anastasiakasina-37678619.jpg" alt="" height="300px " width="200px" >
+        <img src="image/pexels-anat-morad-275582206-16552906.jpg" alt="" height="300px " width="200px" >
+        </div>
+        
+    </div>
+    <div class="details">
+            <a style="margin-left: -70px;" href="https://en.wikipedia.org/wiki/Paris"> More About..</a>
+            <a href="https://en.wikipedia.org/wiki/Bali"> More About..</a>
+            <a href="https://en.wikipedia.org/wiki/Kyoto"> More About..</a>
+            <a href="https://en.wikipedia.org/wiki/Cape_Town"> More About..</a>
+            <a  style="margin-right: -100px;" href="https://en.wikipedia.org/wiki/New_York_City"> More About..</a>
+        </div>
+
+        <footer>
+        <p>&copy; All Rights Reserved by Travel and Adventure</p>
+    </footer>
+</body>
+</html>

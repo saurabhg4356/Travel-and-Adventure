@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        h1{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-variant: small-caps;
+            text-decoration: underline dashed violet;
+            text-shadow: 8px 8px 7px violet;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        td{
+            padding: 10px 20px;
+            
+        }
+        td strong{
+            font-size: x-large;
+            
+        }
+        td .text{
+            border-radius: 20px;
+            font-size: large;
+            height: 25px;
+            padding-left: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        td button{
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: large;
+            background-color: yellowgreen;
+        }
+
+        td button:hover{
+            background-color: black;
+            color: antiquewhite;
+            transition: transform 1s;
+            transform: scale(0.9);}
+            table{
+            border: 2px solid rgb(81, 44, 157);
+            margin-bottom: 30px;
+            box-shadow: 8px 8px 8px violet;
+            border-radius: 10px;
+            }
+            table{
+                padding: 30px;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Login Form for Users 
+        </h1>
+    </div>
+    <div style="text-align: center; display: flex; justify-content:center ; margin-top: 100px;">
+        <form action="index.html">
+            <table>
+                <tr>
+                    <td><strong>Username :</strong></td>
+                    <td><input class="text" type="text" placeholder="name" pattern="[a-z,A-Z]+" required></td>
+                </tr>
+                <tr>
+                    <td><strong>Password :</strong></td>
+                    <td><input class="text" type="password" placeholder="password" required></td>
+                </tr>
+                <tr style="position: relative; left: 33%; top: 20px;">
+                    <td><button>Login</button></td>
+                    
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>

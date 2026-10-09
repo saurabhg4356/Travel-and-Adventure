@@ -1,0 +1,49 @@
+body{
+            overflow-x: hidden;
+            margin: 0;
+        }
+        .header{
+            padding-top: 10px;
+            padding-bottom: -40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        .nav-link{
+            display: flex;
+            gap: 70px;
+            margin-left: 50px;
+            font-size: 10px;
+        }
+        .register{
+            margin-right: 30px;
+            justify-content: end;
+        }
+        .header .register{
+            border: 2px solid blue;
+            padding: 15px;
+            border-radius: 30px;
+            background-color: blue;
+        }
+        .register:hover{
+            background-color: red;
+            font-size: 30px;
+            text-shadow: 8px 8px 8px black;
+
+
+        }
+        .nav-link a:hover{
+            text-shadow: 8px 8px 8px rgb(223, 29, 223);
+            
+            
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+        }
